@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4315943C1C92DD4000EDA489 /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 431A522B1C92DB7900D19E4E /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		4315943D1C92DD4000EDA489 /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 431A522C1C92DB7900D19E4E /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		431A522D1C92DB7900D19E4E /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 431A522B1C92DB7900D19E4E /* Nimble.framework */; };
-		431A522E1C92DB7900D19E4E /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 431A522C1C92DB7900D19E4E /* Quick.framework */; };
 		43ABC3B81C92C03500FC2AE7 /* WaniKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 43ABC3B71C92C03500FC2AE7 /* WaniKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		43ABC3BF1C92C03500FC2AE7 /* WaniKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43ABC3B41C92C03500FC2AE7 /* WaniKit.framework */; };
 		43DAE22B1C95919100F090C4 /* MutuallyExclusive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DAE1E41C95919100F090C4 /* MutuallyExclusive.swift */; };
@@ -69,7 +65,6 @@
 		43DAE2601C95919100F090C4 /* DownloadVocabListOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DAE2271C95919100F090C4 /* DownloadVocabListOperation.swift */; };
 		43DAE2611C95919100F090C4 /* GetVocabListOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DAE2281C95919100F090C4 /* GetVocabListOperation.swift */; };
 		43DAE2621C95919100F090C4 /* ParseVocabListOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DAE2291C95919100F090C4 /* ParseVocabListOperation.swift */; };
-		43DAE2651C95920200F090C4 /* WaniKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DAE2631C9591B600F090C4 /* WaniKitTests.swift */; };
 		43DAE26E1C9592D800F090C4 /* WaniKit-OSX.h in Headers */ = {isa = PBXBuildFile; fileRef = 43DAE26D1C9592D800F090C4 /* WaniKit-OSX.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		43DAE2751C9592D800F090C4 /* WaniKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43DAE26B1C9592D800F090C4 /* WaniKit.framework */; };
 		43DAE2821C95934400F090C4 /* MutuallyExclusive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DAE1E41C95919100F090C4 /* MutuallyExclusive.swift */; };
@@ -128,7 +123,10 @@
 		43DAE2B71C95939000F090C4 /* DownloadVocabListOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DAE2271C95919100F090C4 /* DownloadVocabListOperation.swift */; };
 		43DAE2B81C95939000F090C4 /* GetVocabListOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DAE2281C95919100F090C4 /* GetVocabListOperation.swift */; };
 		43DAE2B91C95939000F090C4 /* ParseVocabListOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DAE2291C95919100F090C4 /* ParseVocabListOperation.swift */; };
-		43DAE2BA1C9594CC00F090C4 /* WaniKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DAE2631C9591B600F090C4 /* WaniKitTests.swift */; };
+		43DAE2BF1C9598DA00F090C4 /* EndpointZeroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DAE2BD1C95987C00F090C4 /* EndpointZeroTests.swift */; };
+		43DAE2C11C95A0AE00F090C4 /* TestsRelated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DAE2C01C95A0AE00F090C4 /* TestsRelated.swift */; };
+		43DAE2C21C95A0AE00F090C4 /* TestsRelated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DAE2C01C95A0AE00F090C4 /* TestsRelated.swift */; };
+		43DAE2C31C95A0D600F090C4 /* EndpointZeroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DAE2BD1C95987C00F090C4 /* EndpointZeroTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -155,16 +153,12 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				4315943C1C92DD4000EDA489 /* Nimble.framework in CopyFiles */,
-				4315943D1C92DD4000EDA489 /* Quick.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		431A522B1C92DB7900D19E4E /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
-		431A522C1C92DB7900D19E4E /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
 		43ABC3B41C92C03500FC2AE7 /* WaniKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WaniKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		43ABC3B71C92C03500FC2AE7 /* WaniKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WaniKit.h; sourceTree = "<group>"; };
 		43ABC3B91C92C03500FC2AE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -226,12 +220,13 @@
 		43DAE2271C95919100F090C4 /* DownloadVocabListOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadVocabListOperation.swift; sourceTree = "<group>"; };
 		43DAE2281C95919100F090C4 /* GetVocabListOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetVocabListOperation.swift; sourceTree = "<group>"; };
 		43DAE2291C95919100F090C4 /* ParseVocabListOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseVocabListOperation.swift; sourceTree = "<group>"; };
-		43DAE2631C9591B600F090C4 /* WaniKitTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaniKitTests.swift; sourceTree = "<group>"; };
 		43DAE26B1C9592D800F090C4 /* WaniKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WaniKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		43DAE26D1C9592D800F090C4 /* WaniKit-OSX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WaniKit-OSX.h"; sourceTree = "<group>"; };
 		43DAE26F1C9592D800F090C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		43DAE2741C9592D800F090C4 /* WaniKit-OSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WaniKit-OSXTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43DAE2741C9592D800F090C4 /* WaniKitOSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaniKitOSXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43DAE27B1C9592D800F090C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43DAE2BD1C95987C00F090C4 /* EndpointZeroTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndpointZeroTests.swift; sourceTree = "<group>"; };
+		43DAE2C01C95A0AE00F090C4 /* TestsRelated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestsRelated.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -247,8 +242,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				43ABC3BF1C92C03500FC2AE7 /* WaniKit.framework in Frameworks */,
-				431A522D1C92DB7900D19E4E /* Nimble.framework in Frameworks */,
-				431A522E1C92DB7900D19E4E /* Quick.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,8 +266,6 @@
 		43ABC3AA1C92C03400FC2AE7 = {
 			isa = PBXGroup;
 			children = (
-				431A522B1C92DB7900D19E4E /* Nimble.framework */,
-				431A522C1C92DB7900D19E4E /* Quick.framework */,
 				43DAE1DF1C95919100F090C4 /* Shared */,
 				43ABC3B61C92C03500FC2AE7 /* WaniKit */,
 				43ABC3C21C92C03500FC2AE7 /* WaniKitTests */,
@@ -290,7 +281,7 @@
 				43ABC3B41C92C03500FC2AE7 /* WaniKit.framework */,
 				43ABC3BE1C92C03500FC2AE7 /* WaniKitTests.xctest */,
 				43DAE26B1C9592D800F090C4 /* WaniKit.framework */,
-				43DAE2741C9592D800F090C4 /* WaniKit-OSXTests.xctest */,
+				43DAE2741C9592D800F090C4 /* WaniKitOSXTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -523,7 +514,8 @@
 		43DAE22A1C95919100F090C4 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				43DAE2631C9591B600F090C4 /* WaniKitTests.swift */,
+				43DAE2BD1C95987C00F090C4 /* EndpointZeroTests.swift */,
+				43DAE2C01C95A0AE00F090C4 /* TestsRelated.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -637,7 +629,7 @@
 			);
 			name = "WaniKit-OSXTests";
 			productName = "WaniKit-OSXTests";
-			productReference = 43DAE2741C9592D800F090C4 /* WaniKit-OSXTests.xctest */;
+			productReference = 43DAE2741C9592D800F090C4 /* WaniKitOSXTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -783,7 +775,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43DAE2651C95920200F090C4 /* WaniKitTests.swift in Sources */,
+				43DAE2BF1C9598DA00F090C4 /* EndpointZeroTests.swift in Sources */,
+				43DAE2C11C95A0AE00F090C4 /* TestsRelated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -854,7 +847,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43DAE2BA1C9594CC00F090C4 /* WaniKitTests.swift in Sources */,
+				43DAE2C31C95A0D600F090C4 /* EndpointZeroTests.swift in Sources */,
+				43DAE2C21C95A0AE00F090C4 /* TestsRelated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1076,27 +1070,32 @@
 		43DAE2801C9592D800F090C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "WaniKit-OSXTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.haawa.WaniKani.WaniKit-OSXTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_MODULE_NAME = WaniKitOSXTests;
+				PRODUCT_NAME = WaniKitOSXTests;
 				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		43DAE2811C9592D800F090C4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "WaniKit-OSXTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.haawa.WaniKani.WaniKit-OSXTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_MODULE_NAME = WaniKitOSXTests;
+				PRODUCT_NAME = WaniKitOSXTests;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -1138,6 +1137,7 @@
 				43DAE27E1C9592D800F090C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		43DAE27F1C9592D800F090C4 /* Build configuration list for PBXNativeTarget "WaniKit-OSXTests" */ = {
 			isa = XCConfigurationList;
@@ -1146,6 +1146,7 @@
 				43DAE2811C9592D800F090C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

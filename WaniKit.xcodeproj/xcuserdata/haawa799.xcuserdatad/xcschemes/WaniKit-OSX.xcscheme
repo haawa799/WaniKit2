@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "43DAE26A1C9592D800F090C4"
-               BuildableName = "WaniKit-OSX.framework"
+               BuildableName = "WaniKit.framework"
                BlueprintName = "WaniKit-OSX"
                ReferencedContainer = "container:WaniKit.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "43DAE26A1C9592D800F090C4"
-            BuildableName = "WaniKit-OSX.framework"
+            BuildableName = "WaniKit.framework"
             BlueprintName = "WaniKit-OSX"
             ReferencedContainer = "container:WaniKit.xcodeproj">
          </BuildableReference>
@@ -65,7 +65,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "43DAE26A1C9592D800F090C4"
-            BuildableName = "WaniKit-OSX.framework"
+            BuildableName = "WaniKit.framework"
             BlueprintName = "WaniKit-OSX"
             ReferencedContainer = "container:WaniKit.xcodeproj">
          </BuildableReference>
@@ -83,7 +83,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "43DAE26A1C9592D800F090C4"
-            BuildableName = "WaniKit-OSX.framework"
+            BuildableName = "WaniKit.framework"
             BlueprintName = "WaniKit-OSX"
             ReferencedContainer = "container:WaniKit.xcodeproj">
          </BuildableReference>
