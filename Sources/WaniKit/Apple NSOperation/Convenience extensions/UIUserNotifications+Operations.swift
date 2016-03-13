@@ -6,9 +6,11 @@ Abstract:
 A convenient extension to UIKit.UIUserNotificationSettings.
 */
 
-#if os(iOS)
-
 import Foundation
+
+#if os(iOS)
+  
+import UIKit
 
 extension UIUserNotificationSettings {
     /// Check to see if one Settings object is a superset of another Settings object.

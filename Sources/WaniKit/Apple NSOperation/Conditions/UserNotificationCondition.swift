@@ -6,9 +6,10 @@ Abstract:
 This file shows an example of implementing the OperationCondition protocol.
 */
 
+
 #if os(iOS)
 
-import Foundation
+import UIKit
 
 /**
     A condition for verifying that we can present alerts to the user via

@@ -6,14 +6,12 @@
 //  Copyright © 2016 Andriy K. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+@import Foundation;
 
-//! Project version number for WaniKit.
+//! Project version number for Snorlax.
 FOUNDATION_EXPORT double WaniKitVersionNumber;
 
-//! Project version string for WaniKit.
+//! Project version string for Snorlax.
 FOUNDATION_EXPORT const unsigned char WaniKitVersionString[];
-
-// In this header, you should import all the public headers of your framework using statements like #import <WaniKit/PublicHeader.h>
 
 
